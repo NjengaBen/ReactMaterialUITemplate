@@ -5,15 +5,15 @@ import { Routes, Route } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import Sidebar from "./pages/global/Sidebar";
 import Team from "./pages/team";
-// import Invoice from "./pages/invoice";
-// import Contacts from "./pages/contacts";
-// import Bar from "./pages/bar";
-// import Line from "./pages/line";
-// import Pie from "./pages/pie";
-// import Form from "./pages/form";
-// import Calendar from "./pages/calendar";
+import Contacts from "./pages/contacts";
+import Invoice from "./pages/invoices";
+import Form from "./pages/form";
+import Calendar from "./pages/calendar";
+import FAQ from "./pages/faq";
+import Bar from "./pages/bar";
+import Pie from "./pages/pie";
+import Line from "./pages/line";
 // import Geography from "./pages/geography";
-// import FAQ from "./pages/faq";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -28,15 +28,15 @@ function App() {
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/team" element={<Team />} />
-              {/* <Route path="/invoice" element={<Invoice />} /> */}
-              {/* <Route path="/contacts" element={<Contacts />} /> */}
-              {/* <Route path="/bar" element={<Bar />} /> */}
-              {/* <Route path="/pie" element={<Pie />} /> */}
-              {/* <Route path="/faq" element={<FAQ />} /> */}
-              {/* <Route path="/line" element={<Line />} /> */}
+              <Route path="/contacts" element={<Contacts />} />
+              <Route path="/invoice" element={<Invoice />} />
+              <Route path="/form" element={<Form />} />
+              <Route path="/calendar" element={<Calendar />} />
+              <Route path="/faq" element={<FAQ />} />
+              <Route path="/bar" element={<Bar />} />
+              <Route path="/pie" element={<Pie />} />
+              <Route path="/line" element={<Line />} />
               {/* <Route path="/geography" element={<Geography />} /> */}
-              {/* <Route path="/form" element={<Form />} /> */}
-              {/* <Route path="/calendar" element={<Calendar />} /> */}
             </Routes>
           </main>
         </div>

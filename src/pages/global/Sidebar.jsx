@@ -97,7 +97,7 @@ const Sidebar = () => {
                   alt="user-profile"
                   height="100px"
                   width="100px"
-                  src={"../../assets/user.png"}
+                  src={"../../assets/7.jpg"}
                   style={{ cursor: "Pointer", borderRadius: "50%" }}
                 />
               </Box>
@@ -108,7 +108,7 @@ const Sidebar = () => {
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  Harris Johnson
+                  LEGO MAN
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
                   VP Fancy Admin
